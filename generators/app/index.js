@@ -1,11 +1,28 @@
 var path = require('path');
 var chalk = require('chalk');
-
 var util = require('util');
-var genUtils = require('../../util.js');
 
 var yeoman = require('yeoman-generator');
 var yosay = require('yosay');
+var helpers = require('yeoman-generator').test;
+var assert = require('yeoman-generator').assert;
+var path = require('path');
+
+// describe('backbone:app',function(){
+//   describe('when using index.js',function(){
+//     before(function(done){
+//       helpers.run(path.join(__dirname,'../generators/app'))
+//       .on('ready',function(generator){
+//         if(assert.file(['index.html','package.json','webpack.config.js','js/app.js','css/main.css'])){
+//           this.log('请清空文件夹后再使用脚手架构建，否则会有文件冲突');
+//           return;
+//         }
+//       })
+//       .on('end',done);
+//     });
+//   })
+// });
+
 
 var ReactpackGenerator = yeoman.generators.Base.extend({
   info:function(){
