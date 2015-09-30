@@ -2,7 +2,7 @@
 --------------------------------
 在确保自己已经安装了nodejs 和yeoman的情况下，否则(ensure you have been installed yeoman)：
 
-    npm install --save yeoman
+    npm install -g yo
 
 然后安装脚手架（install generator-reactpack）：
 
