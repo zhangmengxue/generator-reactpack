@@ -1,0 +1,31 @@
+{
+  "name": "generator-reactpack",
+  "version": "1.0.0",
+  "description": "react webpack generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangmengxue/generator-reactpack.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "yixuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangmengxue/generator-reactpack/issues"
+  },
+  "homepage": "https://github.com/zhangmengxue/generator-reactpack#readme",
+  "dependencies": {
+    "chai": "^3.3.0",
+    "chalk": "^1.1.1",
+    "fs-extra": "^0.24.0",
+    "gulp": "^3.9.0",
+    "mocha": "^2.3.3",
+    "yeoman-generator": "^0.20.3",
+    "yosay": "^1.0.5"
+  }
+}
