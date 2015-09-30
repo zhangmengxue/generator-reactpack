@@ -2,10 +2,11 @@
 --------------------------------
 在确保自己已经安装了nodejs 和yeoman的情况下，否则：
 
-  npm install --save yeoman
+    npm install --save yeoman
 
 在自己的空项目中执行：
-  yo reactpack
+
+    yo reactpack
 
 得到的脚手架应该是这样的：
 
