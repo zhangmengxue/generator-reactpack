@@ -1,6 +1,6 @@
 {
   "name": "generator-reactpack",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "react webpack generator",
   "main": "index.js",
   "scripts": {

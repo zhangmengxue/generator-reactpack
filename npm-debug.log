@@ -1,0 +1,101 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@2.12.1
+3 info using node@v0.12.7
+4 verbose node symlink /usr/local/bin/node
+5 verbose publish [ '.' ]
+6 silly cache add args [ '.', null ]
+7 verbose cache add spec .
+8 silly cache add parsed spec { raw: '.',
+8 silly cache add   scope: null,
+8 silly cache add   name: null,
+8 silly cache add   rawSpec: '.',
+8 silly cache add   spec: '/Users/yixuan/project/generator-reactpack',
+8 silly cache add   type: 'directory' }
+9 verbose addLocalDirectory /Users/yixuan/.npm/generator-reactpack/1.0.4/package.tgz not in flight; packing
+10 verbose tar pack [ '/Users/yixuan/.npm/generator-reactpack/1.0.4/package.tgz',
+10 verbose tar pack   '/Users/yixuan/project/generator-reactpack' ]
+11 verbose tarball /Users/yixuan/.npm/generator-reactpack/1.0.4/package.tgz
+12 verbose folder /Users/yixuan/project/generator-reactpack
+13 info prepublish generator-reactpack@1.0.4
+14 verbose addLocalTarball adding from inside cache /Users/yixuan/.npm/generator-reactpack/1.0.4/package.tgz
+15 silly cache afterAdd generator-reactpack@1.0.4
+16 verbose afterAdd /Users/yixuan/.npm/generator-reactpack/1.0.4/package/package.json not in flight; writing
+17 verbose afterAdd /Users/yixuan/.npm/generator-reactpack/1.0.4/package/package.json written
+18 silly publish { name: 'generator-reactpack',
+18 silly publish   version: '1.0.4',
+18 silly publish   description: 'react webpack generator',
+18 silly publish   main: 'index.js',
+18 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+18 silly publish   repository:
+18 silly publish    { type: 'git',
+18 silly publish      url: 'git+https://github.com/zhangmengxue/generator-reactpack.git' },
+18 silly publish   keywords: [ 'yeoman-generator' ],
+18 silly publish   author: { name: 'yixuan' },
+18 silly publish   license: 'MIT',
+18 silly publish   bugs: { url: 'https://github.com/zhangmengxue/generator-reactpack/issues' },
+18 silly publish   homepage: 'https://github.com/zhangmengxue/generator-reactpack#readme',
+18 silly publish   dependencies:
+18 silly publish    { chai: '^3.3.0',
+18 silly publish      chalk: '^1.1.1',
+18 silly publish      'fs-extra': '^0.24.0',
+18 silly publish      gulp: '^3.9.0',
+18 silly publish      mocha: '^2.3.3',
+18 silly publish      'yeoman-generator': '^0.20.3',
+18 silly publish      yosay: '^1.0.5' },
+18 silly publish   readme: '### Generate Your React+Webpack+ES6  Playground\n----------------------------------------------\n\n[中文版文档](https://github.com/zhangmengxue/generator-reactpack/blob/master/README-zh.md)\n\nLet\'s begin:\n\n\nEnsure you have been installed yo：\n\n    npm install -g yo\n\nThen install generator-reactpack:\n\n    npm install -g generator-reactpack\n\nIn your blank project , run:\n\n    yo reactpack\n\nAnd you will get this:\n\n      .\n    ├── css\n    │   └── main.css\n    ├── index.html\n    ├── js\n    │   ├── app.js\n    │   └── hello.js\n    ├── node_modules\n    │   ├── babel-core\n    │   ├── babel-loader\n    │   ├── css-loader\n    │   ├── lodash\n    │   ├── react\n    │   ├── react-hot-loader\n    │   ├── react-kendo\n    │   ├── react-router\n    │   ├── webpack\n    │   └── webpack-dev-server\n    ├── package.json\n    └── webpack.config.js\n\nAfter generating , then you have webpack-dev-server in your project, just run:\n\n    npm start\n\nLet\'s try [http://localhost:8080/webpack-dev-server/](http://localhost:8080/webpack-dev-server/)\n\nHello world!\n\n',
+18 silly publish   readmeFilename: 'README.md',
+18 silly publish   gitHead: 'a1d3ed10f42b026fb17a4a4aaeeb1b7c1995f3c1',
+18 silly publish   _id: 'generator-reactpack@1.0.4',
+18 silly publish   _shasum: 'daa6aa2ff40cc7a649b39bdf2b66045a47ceba47',
+18 silly publish   _from: '.' }
+19 verbose getPublishConfig undefined
+20 silly mapToRegistry name generator-reactpack
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/generator-reactpack
+24 verbose publish registryBase https://registry.npmjs.org/
+25 silly publish uploading /Users/yixuan/.npm/generator-reactpack/1.0.4/package.tgz
+26 verbose request uri https://registry.npmjs.org/generator-reactpack
+27 verbose request sending authorization for write operation
+28 info attempt registry request try #1 at 12:51:19
+29 verbose request using bearer token for auth
+30 verbose request id 38a6a1d5a6b46a67
+31 http request PUT https://registry.npmjs.org/generator-reactpack
+32 http 403 https://registry.npmjs.org/generator-reactpack
+33 verbose headers { 'content-type': 'application/json',
+33 verbose headers   'cache-control': 'max-age=60',
+33 verbose headers   'content-length': '95',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Fri, 02 Oct 2015 04:51:24 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-lhr6327-LHR',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1443761483.186082,VS0,VE1522' }
+34 verbose request invalidating /Users/yixuan/.npm/registry.npmjs.org/generator-reactpack on PUT
+35 error publish Failed PUT 403
+36 verbose stack Error: "You cannot publish over the previously published version 1.0.4." : generator-reactpack
+36 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:247:14)
+36 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:170:14)
+36 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:197:22)
+36 verbose stack     at Request.emit (events.js:110:17)
+36 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1050:14)
+36 verbose stack     at Request.emit (events.js:129:20)
+36 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:996:12)
+36 verbose stack     at IncomingMessage.emit (events.js:129:20)
+36 verbose stack     at _stream_readable.js:908:16
+36 verbose stack     at process._tickCallback (node.js:355:11)
+37 verbose statusCode 403
+38 verbose pkgid generator-reactpack
+39 verbose cwd /Users/yixuan/project/generator-reactpack
+40 error Darwin 14.3.0
+41 error argv "node" "/usr/local/bin/npm" "publish"
+42 error node v0.12.7
+43 error npm  v2.12.1
+44 error code E403
+45 error "You cannot publish over the previously published version 1.0.4." : generator-reactpack
+46 error If you need help, you may report this error at:
+46 error     <https://github.com/npm/npm/issues>
+47 verbose exit [ 1, true ]
