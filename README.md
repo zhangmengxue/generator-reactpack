@@ -1,5 +1,8 @@
 ### Generate Your React+Webpack+ES6  Playground
 ----------------------------------------------
+
+[中文版文档](https://github.com/zhangmengxue/generator-reactpack/blob/master/README-zh.md)
+
 Let's begin:
 
 

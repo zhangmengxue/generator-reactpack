@@ -1,4 +1,4 @@
-### 开启你的React+Webpack+ES6开发模式
+### Generate Your React+Webpack+ES6  Playground
 --------------------------------------
 
     author@[zhangmengxue](https://github.com/zhangmengxue)

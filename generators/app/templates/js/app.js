@@ -1,4 +1,4 @@
-/*开始我们的React+Webpack+ES6的Hello World!*/
+/*Hello World!*/
 import React from 'react';
 import Hello from './hello.js';
 

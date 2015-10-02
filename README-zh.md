@@ -40,4 +40,3 @@
     npm start
 
 然后访问[http://localhost:8080/webpack-dev-server/](http://localhost:8080/webpack-dev-server/) 就可以开启你的React+Webpack+ES6模式的开发之旅啦！
-
