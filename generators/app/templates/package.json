@@ -1,7 +1,7 @@
 {
   "name": "react-webpack",
   "version": "1.0.0",
-  "description": "webpack demo",
+  "description": "generate webpack react demo",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --hot --progress --colors",
